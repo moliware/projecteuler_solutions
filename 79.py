@@ -1,5 +1,8 @@
 # http://projecteuler.net/index.php?section=problems&id=79
 
+# No number has one digit repeated. So I assume the solution won't have
+# repeated digits.
+
 from urllib2 import urlopen
 
 numbers = set(urlopen('http://projecteuler.net/project/keylog.txt').read().split())
